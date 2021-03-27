@@ -10,9 +10,8 @@ const reviewSchema = mongoose.Schema(
       type: Number,
       required: true,
     },
-
-    name: {
-      comment: String,
+    comment: {
+      type: String,
       required: true,
     },
   },
